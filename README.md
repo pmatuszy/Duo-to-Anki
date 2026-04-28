@@ -1,1 +1,1 @@
-take prompt from file 1. generic card and process the attached files
+take prompt from file 1.generic card and process the attached files
