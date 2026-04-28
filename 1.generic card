@@ -130,3 +130,5 @@ c:\praca\Pawel\nextCloud-admin\duo-wpisac\_chatgpt\_gotowe_pliki_do_importu\
 then place the output files in there. 
 
 For the image HTML tag, use only the original screenshot basename, not Cursor's saved asset path or prefixed filename.
+most likely it is in that format but it is not guaranteed to be that format only:
+YYYYMMDD_MMMISS_*.jpg
