@@ -69,3 +69,23 @@ For each screenshot:
  #tags column:6
 
 Remember: always create the CSV for the last batch of files
+
+=====
+For Cursor-provided image paths, NEVER use the Cursor-generated UUID suffix in CSV filenames or image HTML tags.
+
+If the saved asset filename looks like:
+c__Users_..._images_YYYYMMDD_HHMMSS_Duolingo-UUID.png
+
+then the original screenshot basename to use is:
+YYYYMMDD_HHMMSS_Duolingo.jpg
+
+So:
+- CSV filename must be YYYYMMDD_HHMMSS_Duolingo.csv
+- image HTML tag must be <img src="YYYYMMDD_HHMMSS_Duolingo.jpg">
+
+Strip:
+- the Cursor path/prefix before images_
+- the generated UUID after Duolingo
+- the saved .png extension
+
+Always convert the screenshot reference to .jpg with maximum width of 360 pixels.
