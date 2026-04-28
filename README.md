@@ -1,1 +1,1 @@
-test
+take prompt from file 1. generic card and process the attached files

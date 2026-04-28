@@ -88,7 +88,7 @@ For each screenshot:
  #deck:all::NiemieckiMoj::on-the-go::moje Duo
  #notetype:Basic (and reversed card)
  #columns:Front;Sound;Back;Hint;AI;screenshot or image (PGM);URL;Tags
- #tags column:7
+ #tags column:8
 
 Anki Card Format
 
