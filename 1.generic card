@@ -151,4 +151,4 @@ Strip:
 - the generated UUID after Duolingo
 - the saved .png extension
 
-Always convert the screenshot reference to .jpg.
+Always convert the screenshot reference to .jpg with maximum width of 360 pixels.
