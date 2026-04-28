@@ -70,6 +70,11 @@ For each screenshot:
 
 Remember: always create the CSV for the last batch of files
 
+Name those files exactly like  input jpg files but change only the extension - from jpg to csv.
+Please remove all files from output directory:
+c:\praca\Pawel\nextCloud-admin\duo-wpisac\_chatgpt\_gotowe_pliki_do_importu\
+then place the output files in there. 
+
 =====
 For Cursor-provided image paths, NEVER use the Cursor-generated UUID suffix in CSV filenames or image HTML tags.
 
