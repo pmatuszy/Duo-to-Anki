@@ -76,6 +76,9 @@ For each screenshot:
   - Hint: always leave it empty
   - AI: Always "(card generated with help of ChatGPT)".
   - Image (PGM): Include the HTML tag that links the screenshot JPG file so it can be imported into Anki.  
+    For the image HTML tag, use only the original screenshot basename, not Cursor's saved asset path or prefixed filename.
+    most likely it is in that format but it is not guaranteed to be that format only:
+    YYYYMMDD_MMMISS_*.jpg 
   - URL: Leave this field empty.  
   - Tags separated by single space: a tag starting with date extracted from the filename in format YYYY.MM.DD:: followed by time in format HHMMSS extracted from the screenshot filename , another tag which is the current date in the format YYYY.MM.DD, a tag called no_pronunciation.
 - Do not include a header row in the CSV file.  
@@ -129,6 +132,3 @@ Please remove all files from output directory:
 c:\praca\Pawel\nextCloud-admin\duo-wpisac\_chatgpt\_gotowe_pliki_do_importu\
 then place the output files in there. 
 
-For the image HTML tag, use only the original screenshot basename, not Cursor's saved asset path or prefixed filename.
-most likely it is in that format but it is not guaranteed to be that format only:
-YYYYMMDD_MMMISS_*.jpg
