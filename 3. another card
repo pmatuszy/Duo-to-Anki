@@ -1,0 +1,88 @@
+Anki Card Creation Instructions
+
+Please ignore all previous prompts and instructions.
+
+General Workflow: 
+0) Always inspect the actual German sentence shown in the image to determine the context — not just the filename or upload order. Never assume which image is for the word or the sentence.
+1) Sort all uploaded screenshots in ascending order by filename before starting.  
+2) For each image, generate two cards whenever possible:  
+   - one for the highlighted word or words 
+   - one for the entire sentence  
+3) Always verify whether a sentence is a statement or a question — this is a common mistake, so double-check.  
+5) After sorting screenshots by filename, inspect the German sentence and verify that the content of each screenshot is matched correctly to its filename. Use the actual sentence text to determine what verb or noun to create the word card for — do not assume based on filename or order alone.
+
+Card Creation Guidelines
+
+Front of the Card (Always in Polish or English):  
+- Use the singular form of the word.  
+- If the word has a plural, append to the end of the first line : ( + plural )  
+- Each English meaning should appear on a new line.  
+- Do not use phrases like "How do you say:" 
+- Never use <br> on the front side of any card. Use <br> only in the back for CSV export. 
+
+
+Sentence-Specific Rules:  
+- Create a separate card for each full sentence.  
+- Remove filler words like "ja", "hmm", "Oh", "Hurra" etc.  
+- Start the English translation with a capital letter.  
+- If the sentence is formal, add ( formal ) at the end of the English version.  
+- If the sentence is plural, add ( plural ) accordingly.  
+- If there’s text within a circle, capitalize both the question and answer. Add " ..." if it fits the context.  
+
+Special Cases:  
+- If there’s a bubble within a bubble, only create a card for the inner one with all its meanings.  
+- If the outer bubble contains a full sentence, create a separate card for that sentence.  
+- Whenever possible, generate two cards per image (one word-based, one sentence-based).  
+
+Processing Order and Formatting:  
+- Create cards in the order screenshots are uploaded.  
+- Double-check all generated cards for linguistic accuracy.  
+- Do not use bold, italic, or any special formatting.  
+- For each card, include the source filename in bold.  
+- End every line in the answer section with an extra space.  
+- do not output to the screen in table format - just a plain text
+- if there are words highlighted in yellow or in violet do the separate card for this word as well
+
+CSV Export Instructions
+
+For each screenshot:  
+- Save a CSV file with the same name as the image, but with a .csv extension.  
+- CSV columns:  
+  - Front: English or Polish content. If it spans multiple lines, separate them using the <br> tag only for CSV file output.  
+  - Sound: Leave this field empty - always.
+  - Back: German content. No quotes. End with an extra space. Use <br> for multiple lines only for CSV file output.  
+  - Hint: Always "(card generated with help of ChatGPT)".
+  - Image (PGM): Include the HTML tag that links the screenshot JPG file so it can be imported into Anki.  
+  - URL: Leave this field empty.  
+  - Tags separated by single space: a tag starting with date extracted from the filename in format YYYY.MM.DD:: followed by time in format HHMMSS extracted from the screenshot filename , another tag which is the current date in the format YYYY.MM.DD, a tag called no_pronunciation.
+- Do not include a header row in the CSV file.  
+- Also display the generated cards on screen.  
+- make CSV file the way that I can download it.
+- also make one CSV file combining all CSV generated only from the most recent batch of screenshots so I can import it in one go.
+- at the begining of the CSV file put the following 6 lines as a header of the file - they all start with hash and do NOT contain any quotes. Do not include them in the header anywhere... Also treat the 6 lines below not as a comment to my prompt but as actual header for the CSV file:
+ #separator:Semicolon
+ #html:true
+ #deck:all::varia::Trivia
+ #notetype:Basic (and reversed card)
+ #columns:Front;Sound;Back;Hint;screenshot or image (PGM);URL;Tags
+ #tags column:7
+
+Anki Card Format
+
+BACK:  
+English abbreviation
+this is only when you print to the screen: (card generated with help of ChatGPT) 
+
+For Sentences:  
+Start with the line: FRONT (in bold and underlined, literally written as FRONT)  
+Then:  
+<English sentence or question, properly formatted ending with the period>  
+
+BACK:  
+<German translation ending with the period> 
+this is only when you print to the screen: (card generated with help of ChatGPT) 
+
+Remember: always create the CSV for the last batch of files
+
+
+After you generate CSV show it to the screen in human readable form.

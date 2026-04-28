@@ -1,0 +1,71 @@
+Anki Card Creation Instructions
+
+1) firstly, generate cards from screenshots but sort them first by filename in ascending order.
+2) do not format cards in any way (e.g. don't add bold, italic)
+3) make sentence-specific only cards together.
+4) print to the screen in a plain text only
+5) Always print the generated Anki cards to the screen in plain text format (not table format). Do not use table display or dataframes.
+
+Create Anki cards for the entire sentence, following these guidelines:
+General Rules:
+
+    Front of the Card (English Side):
+        Each English meaning should be listed separately, on a new line.
+        Do not include phrases like "How do you say:".
+
+    Sentence-Specific Rules:
+        1) Create a separate card for the full sentence.
+        2) Structure it as a question and answer in lowercase.
+        3) Omit words like "ja", "hmm", "Oh", "Hurra" etc.  
+        4) Capitalize the first word of the translated sentence.
+        5) Formal sentences: Add " ( formal )" at the end of the English question.
+        6) Plural sentences: Add " ( plural )" at the end of the English question.
+
+    Special Cases:
+        1) If there’s a bubble within a bubble, create a card only for the inner bubble with all its meanings.
+        2) If the outer bubble contains a full sentence, create a separate card for that sentence.
+        3) If a part of the sentence is in a circle, start the question and answer with a capital letter. If it makes sense, append " ..." to the end of both.
+
+    Processing Order & Formatting:
+        1) Cards should be created in the order screenshots are uploaded.
+        2) Verify the correctness of the generated cards from a linguistic perspective.
+        3) Do not apply bold, italic, or any other formatting.
+		4) check if tags in output CSV files are correct as many times you put there underscores which is wrong
+
+Anki Card Format
+
+Text ~~~:  
+(German sentence).
+
+Back Extra ~~~:  
+(German sentence).
+
+Hint (two lines as below) ~~~:
+(English sentence). 
+(card generated with help of ChatGPT)
+
+CSV Export Instructions
+
+For each screenshot:  
+- Save a CSV file with the same name as the image, but with a .csv extension.  
+- CSV columns:  
+  - Text: (German sentence).
+  - Sound: (leave empty)
+  - Back Extra: (German sentence). 
+  - Hint: (English sentence) and "<br>(card generated with help of ChatGPT)"  
+  - screenshot or image (PGM): Include the HTML tag that links the screenshot JPG file so it can be imported into Anki.  
+  - Tags separated by single space: a tag starting with date extracted from the filename in format YYYY.MM.DD:: followed by time in format HHMMSS extracted from the screenshot filename (usually 6 characters from 21 to 26), another tag which is the current date in the format YYYY.MM.DD, a tag called no_pronunciation, and "clozeDeletion"
+- Do not include a header row in the CSV file.  
+- Also display the generated cards on screen.  
+- make CSV file the way that I can download it.
+- also make one CSV file combining all CSV generated only for lastly uploaded screenshots so I can import it in one go. (give HTML link to this).
+- always give the HTML link to the CSV file so I can easily download it.
+- at the begining of the CSV file put the following 6 lines as a header of the file - they all start with hash and do NOT contain quotes:
+ #separator:Semicolon
+ #html:true
+ #deck:all::NiemieckiMoj::on-the-go::moje Duo
+ #notetype:Cloze
+ #columns:Text;Sound;Back Extra;Hint;screenshot or image (PGM);Tags
+ #tags column:6
+
+Remember: always create the CSV for the last batch of files
