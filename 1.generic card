@@ -125,6 +125,6 @@ This please do only for specific words in the inner bubble and not for the whole
 After you generate CSV show it to the screen in human readable form.
 
 Name those files exactly like  input jpg files but change only the extension - from jpg to csv.
-Place the output files in 
+Please remove all files from output directory:
 c:\praca\Pawel\nextCloud-admin\duo-wpisac\_chatgpt\_gotowe_pliki_do_importu\
-directory.
+then place the output files in there. 
