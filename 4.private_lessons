@@ -25,7 +25,7 @@ Always double check if this is correct translation - and if there are some mista
   - Image (PGM): always leave it empty
   - URL: Leave this field empty unless you find the meaning on that website - it must be in form like this - for word rosa the URL is: https://www.verbformen.de/?w=rosa
     Please check if that URL is valid before you put it there. after URL put in the output file a space
-  - Tags separated by single space: a tag starting with the current date in format YYYY.MM.DD, a tag called no_pronunciation, and anothe tag private_lesson_YYYY where YYYY is the current year
+  - Tags separated by single space: a tag starting with the current date in format YYYY.MM.DD, a tag called no_pronunciation, and anothe tag private_lesson_YYYY where YYYY is the current year, another is pilne
 - Do not include a header row in the CSV file.  
 - Also display the generated cards on screen.  
 - make CSV file the way that I can download it.
@@ -50,6 +50,8 @@ Also treat the 6 lines below not as a comment to my prompt but as actual header 
  #columns:Front;Sound;Back;Hint;AI;screenshot or image (PGM);URL;Tags
  #tags column:8
 
- At the end show me the generated CSV file.
+ Show me the generated CSV file.
+ Give "Translation issues to review" and suggest if the user would like to implement them all or only some of them.
 
- Give "Translation issues to review" and suggest if the user would like to implement them all or only some of them
+output CSV file save in C:\praca\Pawel\nextCloud-admin\duo-wpisac\_chatgpt\_gotowe_pliki_do_importu as 
+YYYYMMDD_HHMISS-import.csv
