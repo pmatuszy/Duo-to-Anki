@@ -51,3 +51,5 @@ Also treat the 6 lines below not as a comment to my prompt but as actual header 
  #tags column:8
 
  At the end show me the generated CSV file.
+
+ Give "Translation issues to review" and suggest if the user would like to implement them all or only some of them
