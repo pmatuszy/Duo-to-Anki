@@ -1,7 +1,7 @@
 - CSV columns:  
-  - Front: English or Polish content. If it spans multiple lines, separate them using the <br> tag only for CSV file output.  
+  - Front: English or Polish content. If it spans multiple lines, separate them using the <br> tag only for CSV file output. 
   - Sound: Leave this field empty - always.
-  - Back: German content. No quotes. End with an extra space. Use <br> for multiple lines only for CSV file output.
+  - Back: German content. No quotes. End with an extra space. Use <br> for multiple lines only for CSV file output. If there are multilpe meanings separate them with comma and <br>
   - Hint: always leave it empty
   - AI: Always "(card generated with help of ChatGPT)".
   - Image (PGM): always leave it empty
