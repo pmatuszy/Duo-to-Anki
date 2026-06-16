@@ -6,10 +6,19 @@ Commit and push if there are any uncommited changes.
 
 Always double check if this is correct translation - and if there are some mistakes prompt me about that 
 
+
+Verbs 
+- Use the base infinitive (e.g., "to go").  
+- The Back of the card should contain:  
+  1) Infinitive  
+  2) Third-person singular present,  Präteritum, Partizip II (include hat or ist as applicable, but do not label the tenses) separated by comma
+  - Append to the Hint card at the end of the first line : ( 3 forms ) after the first meaning
+- English version should be in lower case
+
 - CSV columns:  
-  - Front: English or Polish content. If it spans multiple lines, separate them using the <br> tag only for CSV file output.
+  - Front: English or Polish content. If there are multiple meanings, separate them with comma and a new line. If it spans multiple lines, separate them using the <br> tag only for CSV file output.
     - If the back has multiple German meanings/synonyms, append exactly one marker: [ 2x ], [ 3x ], etc. If there is only one German meaning, omit the marker.
-    - Do NOT use "( 3 forms )", "( + plural )", or any other front-side suffix from 1.generic card or other prompt files. Those rules do not apply here.
+   
     - Never combine [ Nx ] with any other front-side suffix.
     - Examples:
       - correct: dziwne [ 3x ]
@@ -26,10 +35,10 @@ Always double check if this is correct translation - and if there are some mista
   - URL: Leave this field empty unless you find the meaning on that website - it must be in form like this - for word rosa the URL is: https://www.verbformen.de/?w=rosa
      - correct: <a href="https://www.verbformen.de/?w=abstimmen">https://www.verbformen.de/?w=abstimmen </a>
     Please check if that URL is valid before you put it there. after URL put in the output file a space
-   - Tags column: use exactly these four tags, separated by comma only (no spaces):
+   - Tags column: use exactly these four tags, separated by space:
       YYYY.MM.DD,no_pronunciation,private_lesson_YYYY,pilne
-    - correct CSV fragment: ...;;2026.06.16,no_pronunciation,private_lesson_2026,pilne
-    - wrong: ...;;2026.06.16 no_pronunciation private_lesson_2026 pilne
+    - correct CSV fragment: ...;;2026.06.16 no_pronunciation private_lesson_2026 pilne
+    - wrong: ...;;2026.06.16,no_pronunciation,private_lesson_2026,pilne
     - wrong: ...;;2026.06.16, no_pronunciation, private_lesson_2026, pilne
 - Do not include a header row in the CSV file.  
 - Also display the generated cards on screen.  
