@@ -43,7 +43,7 @@ Verbs
 - Append to the front card at the end of the first line : ( 3 forms ) after the first meaning  
 - English version should be in lower case
 
-Sentence-Specific Rules:  
+Sentence-Specific Rules  
 - Create a separate card for each full sentence.  
 - Remove filler words like "ja", "hmm", "Oh", "Hurra" etc.  
 - Start the English translation with a capital letter.  
@@ -51,12 +51,12 @@ Sentence-Specific Rules:
 - If the sentence is plural, add ( plural ) accordingly.  
 - If there’s text within a circle, capitalize both the question and answer. Add " ..." if it fits the context.  
 
-Special Cases:  
+Special Cases 
 - If there’s a bubble within a bubble, only create a card for the inner one with all its meanings.  
 - If the outer bubble contains a full sentence, create a separate card for that sentence.  
 - Whenever possible, generate two cards per image (one word-based, one sentence-based).  
 
-Processing Order and Formatting:  
+Processing Order and Formatting
 - Create cards in the order screenshots are uploaded.  
 - Double-check all generated cards for linguistic accuracy.  
 - Do not use bold, italic, or any special formatting.  
@@ -67,7 +67,7 @@ Processing Order and Formatting:
 
 CSV Export Instructions
 
-For each screenshot:  
+For each screenshot
 - Save a CSV file with the same name as the image, but with a .csv extension.  
 - CSV columns:  
   - Front: English content. If it spans multiple lines, separate them using the <br> tag only for CSV file output.  
@@ -95,7 +95,7 @@ For each screenshot:
 
 Anki Card Format
 
-For Words:  
+For Words:
 Start with the line (for the screen output only): FRONT (in bold and underlined, literally written as FRONT) and screenshot name 
 Then:  
 <English word in singular>  
