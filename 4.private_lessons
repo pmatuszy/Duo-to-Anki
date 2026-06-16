@@ -16,11 +16,12 @@ Always double check if this is correct translation - and if there are some mista
   - Back: German content. No quotes. End every line with an extra space. Use <br> for multiple lines only for CSV file output.
     - Multiple German meanings/synonyms: put each meaning on its own line and end each line with a comma before the newline (e.g. seltsam,<br>merkwürdig,<br>komisch in CSV). Do not list synonyms on separate lines without the trailing comma.
     - Nouns (one meaning): singular and plural on the same line, separated by comma and space (e.g. die Wahl, die Wahlen ).
-  - Hint: always leave it empty
+  - Hint: always leave it empty, unless it is a noun then put there ( + plural )
   - AI: Always "(card generated with help of ChatGPT)".
   - Image (PGM): always leave it empty
-  - URL: Leave this field empty.  
-  - Tags separated by single space: a tag starting with date extracted from the filename in format YYYY.MM.DD:: followed by time in format HHMMSS extracted from the screenshot filename , another tag which is the current date in the format YYYY.MM.DD, a tag called no_pronunciation.
+  - URL: Leave this field empty unless you find the meaning on that website - it must be in form like this - for word rosa the URL is: https://www.verbformen.de/?w=rosa
+    Please check if that URL is valid before you put it there
+  - Tags separated by single space: a tag starting with the current date in format YYYY.MM.DD, a tag called no_pronunciation, and anothe tag private_lesson_YYYY where YYYY is the current year
 - Do not include a header row in the CSV file.  
 - Also display the generated cards on screen.  
 - make CSV file the way that I can download it.
