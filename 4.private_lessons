@@ -1,5 +1,7 @@
 Please ignore all previous prompts and instructions.
 
+Always double check if this is correct translation - and if there are some mistakes prompt me about that 
+
 - CSV columns:  
   - Front: English or Polish content. If it spans multiple lines, separate them using the <br> tag only for CSV file output.
     - If the back has multiple German meanings/synonyms, append exactly one marker: [ 2x ], [ 3x ], etc. If there is only one German meaning, omit the marker.
