@@ -6,6 +6,15 @@ Commit and push if there are any uncommited changes.
 
 Always double check if this is correct translation - and if there are some mistakes prompt me about that 
 
+Punctuation (Front and Back must match at the end)
+- Mirror the Front ending punctuation on the Back. If Front has no comma or full stop at the end, Back must not have one either.
+- wrong Front: mam to gdzieś  Back: Es ist mir egal,
+- correct Front: mam to gdzieś  Back: Es ist mir egal
+- wrong Front: krok po kroku  Back: Schritt für Schritt,
+- correct Front: krok po kroku  Back: Schritt für Schritt
+- If Front ends with a full stop, Back ends with a full stop. If Front ends with a comma, Back ends with a comma.
+- Commas inside the Back are fine when they separate items on the same line (e.g. die Wahl, die Wahlen or verb forms verschieben, verschiebt, verschob, hat verschoben). Those are not trailing punctuation.
+- Trailing comma on the last line of Back: ONLY when listing multiple German synonyms on separate lines AND the last synonym line is not the final field ending — see Back rules below. Never add a trailing comma after a single meaning, phrase, or sentence.
 
 Verbs 
 - Use the base infinitive (e.g., "to go").  
@@ -26,9 +35,12 @@ Verbs
       - correct: oddawać głos [ 3x ]
       - wrong: oddawać głos : ( 3 forms ) [ 3x ]
   - Sound: Leave this field empty - always.
-  - Back: German content. No quotes. End every line with an extra space. Use <br> for multiple lines only for CSV file output.
-    - Multiple German meanings/synonyms: put each meaning on its own line and end each line with a comma before the newline (e.g. seltsam,<br>merkwürdig,<br>komisch in CSV). Do not list synonyms on separate lines without the trailing comma.
-    - Nouns (one meaning): singular and plural on the same line, separated by comma and space (e.g. die Wahl, die Wahlen ).
+  - Back: German content. No quotes. End every line with an extra space (space only, not a comma). Use <br> for multiple lines only for CSV file output.
+    - Multiple German meanings/synonyms on separate lines: put each meaning on its own line; end each line with a comma before <br> except do NOT add a comma after the last meaning (last line follows Punctuation rules above — no trailing comma if Front has none).
+      - correct (Front dziwne [ 3x ]): seltsam,<br>merkwürdig,<br>komisch
+      - wrong: seltsam,<br>merkwürdig,<br>komisch,
+      - wrong (Front mam to gdzieś): Es ist mir egal,
+    - Nouns (one meaning): singular and plural on the same line, separated by comma and space (e.g. die Wahl, die Wahlen — no comma after Wahlen unless Front ends with comma).
   - Hint: always leave it empty, unless it is a noun then put there ( + plural )
   - AI: Always "(card generated with help of ChatGPT)".
   - Image (PGM): always leave it empty

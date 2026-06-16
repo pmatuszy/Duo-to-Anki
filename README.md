@@ -14,22 +14,28 @@ Process the attached files using 2. close deletion. For each file, first read/op
 
 PRIVATE LESSONS:
 ~~~~~~~~~~~~~~~~
-take prompt from file "4.private_lessons". Process the text below.  For each line, please generate Anki Cards 
+take prompt from file "4.private_lessons". Process the text below. For each line, please generate Anki Cards.
 
+| German | Polish |
+|--------|--------|
+| vor zwei Jahren | 2 lata temu |
+| aufwärmen | |
+| der Topf | garnek |
+| werfen | wrzucić |
+| na twardo | hart gekocht / ein hart gekochtes Ei |
+| schicken | wysłać |
+| der Feiertag | |
+| der Unabhängiger Tag | |
+| der Hammer! | młotek / super! |
+| supergeil | odlotowe |
+| krass echt | mocne |
+| das Rührei | jajecznica |
+| der Elch | łoś |
+| zum Geburtstag / zur Geburtstagsparty | |
+| der Unterschrift | podpis |
+| Ich gehe die Treppe hinauf | wchodzę po schodach |
+| Ich gehe die Treppe hinunter | schodzę po schodach |
+| Geld abheben | |
+| Hoffentlich werde ich / kann ich bar zahlen. | |
+| zlecać przelew | eine Überweisung veranlassen / aufgeben |
 
-seltsam / merkwürdig / komisch - dziwne
-die Wahl,die Wähle ->  wybory
-der Postbrief /der Briefkasten -> skrzynka pocztowa
-das Referendum / die Referenden / die Volksabstimmung
-Ich wähle aus / Ich gebe die Stimme ab - oddawać głos / Ich stimme ab
-
-verschieben -> przesunąć 
-die Gemeinde -> gmina / parafia / wspólnota
-Ich bin ganz nass geworden -> zmoklem
-die Band - zespół muzyczny
-du siehst das selbst;))) zobaczysz sama
-der Beamte / die Beamte 
-der Kumpel / die Kumpel 
-die Kumpels = PLURAL
-der Kollege / die Kollegin
-der Freund / die Freundin 
