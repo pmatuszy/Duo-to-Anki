@@ -1,5 +1,9 @@
 Please ignore all previous prompts and instructions.
 
+Commit and push if there are any uncommited changes.
+
+
+
 Always double check if this is correct translation - and if there are some mistakes prompt me about that 
 
 - CSV columns:  
@@ -45,3 +49,5 @@ Also treat the 6 lines below not as a comment to my prompt but as actual header 
  #notetype:Basic (and reversed card) PL/DE
  #columns:Front;Sound;Back;Hint;AI;screenshot or image (PGM);URL;Tags
  #tags column:8
+
+ At the end show me the generated CSV file.
