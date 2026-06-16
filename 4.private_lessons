@@ -24,7 +24,7 @@ Always double check if this is correct translation - and if there are some mista
   - AI: Always "(card generated with help of ChatGPT)".
   - Image (PGM): always leave it empty
   - URL: Leave this field empty unless you find the meaning on that website - it must be in form like this - for word rosa the URL is: https://www.verbformen.de/?w=rosa
-    Please check if that URL is valid before you put it there
+    Please check if that URL is valid before you put it there. after URL put in the output file a space
   - Tags separated by single space: a tag starting with the current date in format YYYY.MM.DD, a tag called no_pronunciation, and anothe tag private_lesson_YYYY where YYYY is the current year
 - Do not include a header row in the CSV file.  
 - Also display the generated cards on screen.  
